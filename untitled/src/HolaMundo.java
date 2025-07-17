@@ -27,6 +27,6 @@ public class HolaMundo {
         //int class = 5;
         int e5dad1 = 5; // Correcto
         int edadPersona = 5; // Correcto
-        
+        // Evitar acentos y ñ
     }
 }
