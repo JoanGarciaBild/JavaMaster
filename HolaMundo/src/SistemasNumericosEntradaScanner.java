@@ -11,7 +11,7 @@ public class SistemasNumericosEntradaScanner {
         int numeroDecimal = 0;
         try {
             numeroDecimal = scanner.nextInt();//Integer.parseInt(numeroStr);
-        }catch (InputMismatchException e){
+        }catch (Exception e){
             System.out.println("Error debe ingresar un número entero!");
             main(args);
             System.exit(0);
