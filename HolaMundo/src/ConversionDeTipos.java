@@ -12,5 +12,20 @@ public class ConversionDeTipos {
         String logitoStr = "true";
         boolean logicoBOolean = Boolean.parseBoolean(logitoStr);
         System.out.println("logicoBOolean = " + logicoBOolean);
+        
+        int otroNumeroInt = 100;
+        System.out.println("otroNumeroInt = " + otroNumeroInt);
+        String otroNumeroStr = Integer.toString(otroNumeroInt);
+        System.out.println("otroNumeroStr = " + otroNumeroStr);
+        
+        otroNumeroStr = String.valueOf(otroNumeroInt+10);
+        System.out.println("otroNumeroStr = " + otroNumeroStr);
+        
+        double otroRealDouble = 1.23456e-2;
+        String otroRealStr = Double.toString(otroRealDouble);
+        System.out.println("otroRealStr = " + otroRealStr);
+        
+        otroRealStr = String.valueOf(otroRealDouble);
+        System.out.println("otroRealStr = " + otroRealStr);
     }
 }
