@@ -27,5 +27,13 @@ public class ConversionDeTipos {
         
         otroRealStr = String.valueOf(otroRealDouble);
         System.out.println("otroRealStr = " + otroRealStr);
+
+        int i = 10000;
+        short s = (short)i;
+        System.out.println("s = " + s);
+        long l = i;
+        System.out.println("l = " + l);
+        
+
     }
 }
