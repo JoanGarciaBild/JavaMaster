@@ -33,7 +33,7 @@ public class ConversionDeTipos {
         System.out.println("s = " + s);
         long l = i;
         System.out.println("l = " + l);
-        
+
 
     }
 }
