@@ -1,7 +1,11 @@
+import java.util.Scanner;
+
 public class SentenciaSwitchCase {
     public static void main(String[] args) {
 
-        int mes = 12;
+        Scanner s = new Scanner(System.in);
+        System.out.println("Ingrese el número del mes entre 1 - 12");
+        int mes = s.nextInt();
         String nombreMes= null;
 
         switch (mes){
