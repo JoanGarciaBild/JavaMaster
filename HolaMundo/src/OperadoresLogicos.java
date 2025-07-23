@@ -3,7 +3,7 @@ public class OperadoresLogicos {
     public static void main(String[] args) {
 
         int i = 3;
-        byte j = 7;
+        byte j = 3;
         float k = 127e-7f;
         double l = 2.1413e3;
         boolean m = false;
@@ -16,6 +16,15 @@ public class OperadoresLogicos {
         
         boolean b3 = i == j && (k > l || m == false);
         System.out.println("b3 = " + b3);
+        
+        boolean b4 = i == j || k < l && m == true;
+        System.out.println("b4 = " + b4);
+        
+        boolean b5 = true || true && false;
+        System.out.println("b5 = " + b5);
+        
+        boolean b6 = true || false && false || false;
+        System.out.println("b6 = " + b6);
 
     }
 
