@@ -1,11 +1,16 @@
+import java.util.Scanner;
+
 public class SentenciaIfElseNumDiasMes {
 
     public static void main(String[] args) {
 
-        int mes = 2;
+        Scanner s = new Scanner(System.in);
+        System.out.println("Ingrese el número del mes de 1 - 12");
+        int mes = s.nextInt();
 
         int numeroDias = 0;
-        int anio = 1600;
+        System.out.println("Ingrese el año (YYYY)");
+        int anio = s.nextInt();
 
         if(mes == 1 || mes == 3 || mes == 5 || mes == 7 || mes == 8 || mes == 10 || mes == 12){
             numeroDias = 31;
