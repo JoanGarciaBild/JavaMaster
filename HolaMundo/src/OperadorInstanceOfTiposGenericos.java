@@ -3,7 +3,7 @@ public class OperadorInstanceOfTiposGenericos {
     public static void main(String[] args) {
 
         Object texto = "Creando un objeto de la clase String ... que tal!";
-        Number num = 7;
+        Number num = Integer.valueOf(7);//7
 
         boolean b1 = texto instanceof String;
 
