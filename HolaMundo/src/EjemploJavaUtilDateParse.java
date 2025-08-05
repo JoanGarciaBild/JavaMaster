@@ -17,6 +17,25 @@ public class EjemploJavaUtilDateParse {
             Date fecha = format.parse(s.next());
             System.out.println("fecha = " + fecha);
             System.out.println("format = " + format.format(fecha));
+
+            Date fecha2 = new Date();
+
+            if(fecha.after(fecha2)){
+                System.out.println("Fecha del usuario es después que fecha2");
+            }else if(fecha.before(fecha2)){
+                System.out.println("Fecha es anterior que fecha 2");
+            }else if(fecha.equals(fecha2)){
+                System.out.println("fecha es igual a fecha2");
+            }
+
+            if(fecha.compareTo(fecha2) > 0){
+                System.out.println("Fecha del usuario es después que fecha2");
+            }else if(fecha.compareTo(fecha2) < 0){
+                System.out.println("Fecha es anterior que fecha 2");
+            }else if(fecha.compareTo(fecha2) == 0){
+                System.out.println("fecha es igual a fecha2");
+            }
+
         }catch (ParseException e){
             e.printStackTrace();
         }
