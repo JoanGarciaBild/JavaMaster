@@ -21,7 +21,7 @@ public class EjemploJavaUtilCalendar {
         Date fecha = calendario.getTime();
         System.out.println("calendario = " + fecha);
 
-        SimpleDateFormat formato = new SimpleDateFormat("yyyy-MMMM-dd HH:mm:ss:SSS a");
+        SimpleDateFormat formato = new SimpleDateFormat("yyyy-MMMM-dd hh:mm:ss:SSS a");
         String fechaConFormato = formato.format(fecha);
         System.out.println("fechaConFormato = " + fechaConFormato);
 
